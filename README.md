@@ -1,5 +1,5 @@
 # code-server-compose
-A docker-compose bundling of the VSC code server with an Nginx reverse proxy
+A docker-compose bundling of the VSC code server (https://github.com/codercom/code-server) with an Nginx reverse proxy
 
 To run:
 1. Create a file .secret/code-passwd
