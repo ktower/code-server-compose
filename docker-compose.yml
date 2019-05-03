@@ -15,6 +15,7 @@ services:
            target: /home/coder
 
    proxy:
+      container_name: code-proxy-nginx
       image: nginx
       ports:
          - "80:80"
