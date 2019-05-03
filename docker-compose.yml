@@ -29,3 +29,11 @@ services:
            source: /etc/letsencrypt
            target: /etc/letsencrypt
            read_only: true
+         - type: volume
+           source: acme-challenge
+           target: /var/www/certbot
+
+
+volumes:
+    sslcerts:
+    acme-challenge:
