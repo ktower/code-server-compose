@@ -20,8 +20,6 @@ services:
       ports:
          - "80:80"
          - "443:443"
-      environment:
-         - CODE_HOSTNAME_LIST=ide.towerfamily.org princess.towerfamily.org princess.gcp.towerfamily.org
       volumes:
          - type: bind
            source: ./nginx-default.conf
