@@ -11,4 +11,8 @@ PASSWORD=your_password_here
 NB: Currently nginx is hard-coded to use ide.towerfamily.org as a url.
 TODO: Make this more generic.
 
-4. `docker-compose up -d`
+4. Copy `docker-compose.yml.template` to `docker-compose.yml`.
+
+5. Update `#### SET ME ####` references in docker-compose.yml to point to your actual certificate/key file locations.
+
+6. `docker-compose up -d`
