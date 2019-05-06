@@ -26,6 +26,10 @@ services:
            target: /etc/nginx/conf.d/default.conf
            read_only: true
          - type: bind
-           source: /etc/letsencrypt
-           target: /etc/letsencrypt
+           source: /etc/letsencrypt/live/ide.towerfamily.org/fullchain.pem
+           target: /etc/certs/fullchain.pem
+           read_only: true
+         - type: bind
+           source: /etc/letsencrypt/live/ide.towerfamily.org/privkey.pem
+           target: /etc/certs/privkey.pem
            read_only: true
