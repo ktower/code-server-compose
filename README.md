@@ -1,4 +1,6 @@
 # code-server-compose
+⚠️ This project is no longer maintained!
+
 A docker-compose bundling of the VSC code server (https://github.com/codercom/code-server) with an Nginx reverse proxy
 
 To run:
